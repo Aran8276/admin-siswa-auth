@@ -1,17 +1,15 @@
 Ini adalah proyek [Next.js](https://nextjs.org/) yang diinisialisasi dengan [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Mulai
+Pertama, instalasi `node_modules`
+```bash
+npm install
+```
 
-Pertama, jalankan server development:
 
+Kedua, jalankan server development:
 ```bash
 npm run dev
-# atau
-yarn dev
-# atau
-pnpm dev
-# atau
-bun dev
 ```
 
 Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
