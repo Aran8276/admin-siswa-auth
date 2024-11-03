@@ -14,6 +14,11 @@ const nextConfig = {
       },
     ],
   },
+  webpack: (config) => {
+    // Disable minimization
+    config.optimization.minimize = false;
+    return config;
+  },
 };
 
 export default nextConfig;
